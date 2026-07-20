@@ -1,0 +1,7 @@
+echo "# ourrelationshipapp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M bitbucket
+git remote add origin https://github.com/brock-lgtm/ourrelationshipapp.git
+git push -u origin bitbucket
